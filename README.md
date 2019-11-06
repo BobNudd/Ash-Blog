@@ -1,1 +1,4 @@
-Ash-Blog
+# My Blog
+
+By Ash Grennan
+
