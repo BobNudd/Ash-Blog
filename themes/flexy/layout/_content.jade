@@ -1,5 +1,5 @@
 //- index page
-if is_home()
+if is_page() && page.title.toLowerCase() == ''
   h4.page-title Recent Articles
   each post in site.posts.sort('date', 'desc').toArray()
     - var reading_length = Math.ceil(post.content.replace(/[^a-zA-Z\s]/g, '').split(/[\s]+/).length / 250)
@@ -11,7 +11,7 @@ if is_home()
           time(itemprop='datePublished', datetime= post.date.toISOString())= full_date(new Date(post.date), ' dddd, MMMM Do YYYY') + ' at ' + full_date(new Date(post.date), 'H:mm')
           | , #{reading_length} min read
         p(itemprop='text').post-excerpt= post.intro ? post.intro : post.content.replace(/<(?:.|\n)*?>/gm, '').substr(0, 220)
-  footer(itemscope, itemtype='https://schema.org/WPFooter')
+  //- footer(itemscope, itemtype='https://schema.org/WPFooter')
     include _footer
 //- articles page
 if is_page() && page.title.toLowerCase() == 'articles'
@@ -57,5 +57,7 @@ else if is_post()
         br
         | Last updated on
         time(itemprop='dateModified', datetime= page.date.toISOString())= full_date(new Date(page.updated), ' dddd, MMMM Do YYYY') + ' at ' + full_date(new Date(page.updated), 'H:mm')
+        br
+        br
     != page.content
   include _comments
