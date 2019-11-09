@@ -1,41 +1,81 @@
 ---
-title: About
+title: About Me
 ---
 
-[![github stars](https://img.shields.io/github/stars/hexojs/hexo?style=for-the-badge&color=0e83cd&logo=github)](https://github.com/hexojs/hexo) [![github forks](https://img.shields.io/github/forks/hexojs/hexo?style=for-the-badge&color=0e83cd&logo=github)](https://github.com/hexojs/hexo) [![npm stats](https://img.shields.io/npm/dm/hexo?style=for-the-badge&color=0e83cd&label=npm%20downloads&logo=npm)](https://www.npmjs.com/package/hexo)
+I started this blog to help spread information about ideas, methods and practices in the software development field and serve as a resource for myself. I don’t have a post schedule and the topics vary rather than adhering to a strict language, process or methodology.
 
-Hexo was originally created and maintained by [Tommy Chen](https://github.com/tommy351) in 2012. Since then, it has helped thousands of people to build their dream website/blog.
+# Things about me
 
-## Join us
+  * I accidentally swallowed a 2p coin when I was 13 <sup>(please don’t ask me how)</sup>
+  * I have ~~one~~ two cats with my ~~fiancée~~ wife
 
-We are the passionate people behind the Hexo. If you would like to join Hexo, you should have at least one approved PR. If you have already contributed to Hexo, simply shot out an issue in any Hexo repos.
+<img src="me2-300x169.jpg" width="300" height="170">
 
-If you have any question regarding joining Hexo, feel free to contact the maintainer [Abner Chou](https://github.com/NoahDragon) or simply create an issue to ask.
+  * I'm into travelling and intend to do more
 
-## Contribute
+<img src="me3-225x300.jpg" width="225" height="300">
+<img src="11096472_871635929566822_1076037170236436834_n-300x225.jpg" width="300" height="225">
+<img src="me4-300x199.jpg" width="300" height="199">
 
-Don't know where to start? Pick up any item in [Hexo Roadmap](https://github.com/hexojs/hexo/issues/2492), and start from there. Don't hesitate to ask questions, we are glad to help.
+  * My favourite animal are Owls
 
-## Donate
+<img src="me1-300x225.jpg" width="300" height="225">
 
-[![Backers](https://opencollective.com/hexo/tiers/backers.svg?avatarHeight=60&width=600)](https://opencollective.com/hexo)
+# Education
 
-#### Why?
+#### 2004
 
-First of all, many people have asked about donation, so here it is!
+I started studying ICT at Burnley College where my appetite for computers grew, whilst studying full time courses I also studied night courses to accelerate things until 2008.
 
-Second, in all good conscience, most of the visible costs (like the domain fees) are already covered by us. We also spend tremendous time to keep Hexo running and functioning. This is the real cost and also invisible.
+#### 2005
 
-#### Benefits
+I receive an letter from OFSTED stating my module results were within the top 10 in the country. I also win the Student Excellency 2005 award.
 
-We are grateful for every penny donated, here is a list of benefits you and us can achieve:
+#### 2006
 
-1. Cover our cost.
-2. Motivate and acknowledge our work.
-3. List your name on Hexo.io website (2.5k users and 10k pageviews per day!).
+I enter an optional web design competition as part of my web design module, I won gold and came first in my county.
 
-There are two tiers of donation:
-  * Less than $100, your name and website link will be on the donor list.
-  * More than $100, your name, icon, and website link will be on the home page for at least one month (depending on the amount).
+#### 2006
 
-Again, thanks for your support!
+I travel to Milton Keynes and compete against other county winners, I win the competition and gain gold in [UK Skills Challenge 2006](http://www.lancashiretelegraph.co.uk/news/1062509.Web_design_nets_trip_to_land_of_rising_sun/?ref=arc) and win a place to compete against other countries. I’m lucky enough to also win the Student Excellency 2006 award.
+
+#### 2007
+
+I gain a part time job doing hardware and software development in a local company, I gain a training manager and spend time in Coventry with other candidates in different sectors training for the events. I decide not to go Japan.
+
+#### 2007
+
+I start helping with college classes as an assistant, teaching new students with Photoshop and Dreamweaver.
+
+#### 2008
+
+I start a full time course at Bolton University – BSc Business Software Development.
+
+#### 2009
+
+I enroll with Unite with Business, this involved meeting with local businesses and designing/implementation various websites, I partners with 4 companies until I finish my studies creating information websites and e-commerce solutions.
+
+#### 2011
+
+I graduate with distinction and receive a phone call congratulating on the highest mark gained. I receive an offer for a research role but decline to pursue a Masters degree.
+
+#### 2011
+
+I move to Sheffield and start a [MSc(Eng) Advanced Software Engineering](https://www.sheffield.ac.uk/postgraduate/taught/courses/engineering/compscience/advanced-software-engineering-msc) degree at [The University of Sheffield](https://www.sheffield.ac.uk/).
+
+#### 2012
+
+I graduate from The University of Sheffield and I’m fortunate enough to pass with Distinction.
+
+#### 2012
+
+I move back to Burnley, I start at Basis Media as a Web Application Developer.
+
+#### 2016
+
+Won the Innovation category at [RAD](http://www.radawards.com/) awards for the GAME careers site.
+
+#### 2018
+
+Started a postion at Seriun as Lead Developer
+
