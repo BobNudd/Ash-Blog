@@ -1,5 +1,6 @@
 ---
 title: About Me
+comments: false
 ---
 
 I started this blog to help spread information about ideas, methods and practices in the software development field and serve as a resource for myself. I don’t have a post schedule and the topics vary rather than adhering to a strict language, process or methodology.
@@ -57,7 +58,7 @@ I enroll with Unite with Business, this involved meeting with local businesses a
 
 #### 2011
 
-I graduate with distinction and receive a phone call congratulating on the highest mark gained. I receive an offer for a research role but decline to pursue a Masters degree.
+I graduate with distinction, receive an offer for a research role but decline to pursue a Masters degree.
 
 #### 2011
 
@@ -78,4 +79,5 @@ Won the Innovation category at [RAD](http://www.radawards.com/) awards for the G
 #### 2018
 
 Started a postion at Seriun as Lead Developer
+
 
