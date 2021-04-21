@@ -1,6 +1,6 @@
 ---
 title: ChromeDriver Performance C#
-date: 2017/11/06 18:36:00
+date: 2017-11-06 18:36:00
 tags: c sharp, c#
 ---
 
@@ -16,9 +16,9 @@ In this post, we will be looking at how to reduce elapsed time between operation
 
 For the post I’ll be using the same website and loading the same web page. I’ve chosen a page with multiple round trips, images, videos, and several megabytes of content to simulate a sizable and real world web app. Chances are your tests will be fast on static HTML pages regardless of how your tests are written. Below is [Google PageSpeed Insight](https://developers.google.com/speed/pagespeed/insights) results for this page.
 
-![](/post/chromedriver-performance-c-sharp/google-pagespeed-insight-1.jpg)
+![](chromedriver-performance-c-sharp/google-pagespeed-insight-1.jpg)
 
-![](/post/chromedriver-performance-c-sharp/google-pagespeed-insight-2.jpg)
+![](chromedriver-performance-c-sharp/google-pagespeed-insight-2.jpg)
 
 #### Software
 
@@ -44,9 +44,9 @@ We’re going to keep this simple and create a blank C# Console Application with
 
 #### Test Results
 
-![](/post/chromedriver-performance-c-sharp/local-chromedriver-findby-speed.png)
+![](chromedriver-performance-c-sharp/local-chromedriver-findby-speed.png)
 
-![](/post/chromedriver-performance-c-sharp/remote-chromedriver-findby-speed.png)
+![](chromedriver-performance-c-sharp/remote-chromedriver-findby-speed.png)
 
 Our results demonstrate that finding an element by ID is the most efficient, this is also [inline with the documentation](http://www.seleniumhq.org/docs/03_webdriver.jsp).
 
@@ -62,7 +62,7 @@ With the amount of HTTP request ever increasing, especially 3rd party request, w
 
 To use the extension we’ll need to grab the .crx file, (you’ll need a third part tool such as [this](http://crxextractor.com/)) and load it into our ChromeDriver instance. Below is the code for this
 
-{% codeblock lang:csharp %}
+```csharp
 var cdOptions = new ChromeOptions();
 cdOptions.AddExtension(@"C:\temp\uBlock-Origin_v1.14.20.crx");
 
@@ -70,13 +70,13 @@ cdOptions.AddExtension(@"C:\temp\uBlock-Origin_v1.14.20.crx");
 var cdFilePath = @"C:\tempMonitor";
 
 var cd = new ChromeDriver(cdFilePath, cdOptions, TimeSpan.FromSeconds(30));
-{% endcodeblock %}
+```
 
 #### Results
 
 We’re going to compare the results with our remote test
 
-![](/post/chromedriver-performance-c-sharp/remote-chromedriver-findby-speed-ublock.png)
+![](chromedriver-performance-c-sharp/remote-chromedriver-findby-speed-ublock.png)
 
 The results speak for themselves, we’re loading a remote page and finding elements 200-300 milliseconds quicker due to uBlock. This has another benefit of reducing the probability of a third party HTTP request hanging causing the page to never finish full loading which will eventually cause a `TimeOutException`.
 
@@ -88,7 +88,7 @@ A new feature of ChromeDriver is the ability to run the browser headless, so you
 
 For this setup we’ll simply be passing in the headless argument, in headless mode the console receives a lot of warnings therefore we will hide those for now.
 
-{% codeblock lang:csharp %}
+```csharp
 var cdOptions = new ChromeOptions();
 
 cdOptions.AddArgument(@"--headless");
@@ -98,10 +98,10 @@ cdOptions.AddArguments(@"--log-level=3");
 var cdFilePath = @"C:\tempMonitor";
 
 var cd = new ChromeDriver(cdFilePath, cdOptions, TimeSpan.FromSeconds(30));
-{% endcodeblock %}
+```
 
 #### Results
 
-![](/post/chromedriver-performance-c-sharp/remote-chromedriver-findby-speed-headless.png)
+![](chromedriver-performance-c-sharp/remote-chromedriver-findby-speed-headless.png)
 
 With Chrome in headless mode we’ve taken 300-400 milliseconds from our no extension tests, over a large test suite these would lead to great performance increase and the ability to run tests in parallel.

@@ -1,6 +1,6 @@
 ---
 title: T4 Multiple File Outputs in a .NET Core Project
-date: 2018/11/03 11:15:00
+date: 2018-11-03 11:15:00
 tags: t4, c#
 ---
 

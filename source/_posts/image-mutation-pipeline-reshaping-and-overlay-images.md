@@ -1,6 +1,6 @@
 ---
 title: Image Mutation Pipeline - Reshaping and Overlay Images
-date: 2019/11/04 20:08:00
+date: 2019-11-04 20:08:00
 tags: c#, c-sharp, imagesharp
 ---
 
@@ -16,10 +16,10 @@ Using this library, we’ll create our own pipeline of image operations to perfo
 
 For assets, we’ll be using two images, a base picture and an overlay to surround:
 
-![](/post/image-mutation-pipeline-reshaping-and-overlay-images/me.png)
+![](image-mutation-pipeline-reshaping-and-overlay-images/me.png)
 Base picture (me.png)
 
-![](/post/image-mutation-pipeline-reshaping-and-overlay-images/masters-bronze.png)
+![](image-mutation-pipeline-reshaping-and-overlay-images/masters-bronze.png)
 Overlay (frame.png)
 
 ### Project Setup
@@ -111,11 +111,11 @@ Below is the code for this, with heavy use of comments elaborating on the proces
 
 The above code results in the following image:
 
-![](/post/image-mutation-pipeline-reshaping-and-overlay-images/fb-1.png)
+![](image-mutation-pipeline-reshaping-and-overlay-images/fb-1.png)
 
 We can achieve our approximate diamond shape via increasing the `cornerRadius` float value, however this will result in less of the canvas showing, below is 200:
 
-![](/post/image-mutation-pipeline-reshaping-and-overlay-images/fb-2.png)
+![](image-mutation-pipeline-reshaping-and-overlay-images/fb-2.png)
 
 Side note, if you wanted a circle, all that would be required is to set the `cornerRadius` to 50% of the image size.
 
@@ -153,6 +153,6 @@ The above method will draw the image together with the previous image, once that
 
 ### The Final Result
 
-![](/post/image-mutation-pipeline-reshaping-and-overlay-images/complete-1.png)
+![](image-mutation-pipeline-reshaping-and-overlay-images/complete-1.png)
 
 It should be noted that the code above is simply a proof in concept, for instance the `Clone` methods add overhead and shouldn’t appear in production code.

@@ -1,6 +1,6 @@
 ---
 title: HTML5 – Unknown JavaScript Web APIs
-date: 2018/01/07 19:16:00
+date: 2018-01-07 19:16:00
 tags: javascript, web api
 ---
 
@@ -26,7 +26,7 @@ function networkStatus(e) {
 
 Browser support for this is excellent for recent browser versions, with some of the smaller device specific browsers such as Samung Internet supporting it.
 
-![](/post/html5-unknown-javascript-web-apis/online-status-web-api.png)
+![](html5-unknown-javascript-web-apis/online-status-web-api.png)
 
 ### Device Orientation
 
@@ -44,7 +44,7 @@ console.log('gamma:', e.gamma);
 
 Browser support for this isn’t great, partial support with knows issues, fine for fun features and non essential but I wouldn’t rely on it.
 
-![](/post/html5-unknown-javascript-web-apis/device-orientation-javascript-api.png)
+![](html5-unknown-javascript-web-apis/device-orientation-javascript-api.png)
 
 ### Capture Ambient Light
 
@@ -60,7 +60,7 @@ window.addEventListener('devicelight', (e) => {
 
 Browser support for this is bad, it has been available in Chrome since version 62, however is an experimental feature and has to be enabled.
 
-![](/post/html5-unknown-javascript-web-apis/ambient-light-api.png)
+![](html5-unknown-javascript-web-apis/ambient-light-api.png)
 
 
 ### Battery Level
@@ -80,4 +80,4 @@ navigator.getBattery().then(function(battery) {
 
 Browser support for this is pretty poor unless you’re specifically targeting Chrome. Also as FireFox have removed the feature, therefore it doesn’t look promising for the future.
 
-![](/post/html5-unknown-javascript-web-apis/battery-status-api.png)
+![](html5-unknown-javascript-web-apis/battery-status-api.png)

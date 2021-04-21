@@ -1,13 +1,13 @@
 ---
 title: Visual Studio Remote Debugger Firewall Error
-date: 2019/12/19 20:43:00
+date: 2019-12-19 20:43:00
 ---
 
 ### An Error Occurred while launching remote debugging
 
 This is a relatively common problem (in my experience).
 
-![](/post/visual-studio-remote-debugger-firewall-error/remote-debugger-visual-studio.PNG)
+![](visual-studio-remote-debugger-firewall-error/remote-debugger-visual-studio.PNG)
 
 Generally, ensuring that port 4022 for Visual Studio 2019 or 4020 if you're using 2017 isn't block by your network resolves the issue.
 

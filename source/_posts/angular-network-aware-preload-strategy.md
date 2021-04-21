@@ -1,6 +1,6 @@
 ---
 title: Angular Network Aware Preload Strategy
-date: '12/22/2019'
+date: '12-22-2019'
 ---
 
 ### Lazy Loading Routes

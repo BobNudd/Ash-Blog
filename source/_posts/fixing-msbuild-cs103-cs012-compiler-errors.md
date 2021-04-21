@@ -1,6 +1,6 @@
 ---
 title: Fixing MSBuild CS103, CS012 Compiler Errors
-date: 2018/06/01 22:49:00
+date: 2018-06-01 22:49:00
 tags: msbuild
 ---
 

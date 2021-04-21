@@ -1,6 +1,6 @@
 ---
 title: ChromeDriver for data scraping
-date: 2017/11/06 20:05:34
+date: 2017-11-06 20:05:34
 tags: Selenium, c#, c-sharp
 ---
 
@@ -47,23 +47,23 @@ For this example I’ll be using the amazon.co.uk website, it should be noted th
 
 For this example, I’ll create a simple Console Application
 
-![](/post/ChromeDriver-for-data-scraping/01.jpg)
+![](ChromeDriver-for-data-scraping/01.jpg)
 
 Next we’ll need the Selenium.WebDriver package, we can find via the NuGet solution window
 
-![](/post/ChromeDriver-for-data-scraping/02.jpg)
+![](ChromeDriver-for-data-scraping/02.jpg)
 
 Using the Selenium library, we’re going to load our Chronium executable and tell Chrome to browse to a product page
 
-![](/post/ChromeDriver-for-data-scraping/03.jpg)
+![](ChromeDriver-for-data-scraping/03.jpg)
 
 Using the FindElementById method, we’ll pass in the id of the element which contains the information we would like. Our finished demo looks like this
 
-![](/post/ChromeDriver-for-data-scraping/04.jpg)
+![](ChromeDriver-for-data-scraping/04.jpg)
 
 The result:
 
-![](/post/ChromeDriver-for-data-scraping/05-768x554.jpg)
+![](ChromeDriver-for-data-scraping/05-768x554.jpg)
 
 ### Conclusion
 

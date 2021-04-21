@@ -1,6 +1,6 @@
 ---
 title: EF Core – Seed Data Strategy
-date: 2019/01/06 22:49:00
+date: 2019-01-06 22:49:00
 tags: c#, seed data, .net core
 ---
 

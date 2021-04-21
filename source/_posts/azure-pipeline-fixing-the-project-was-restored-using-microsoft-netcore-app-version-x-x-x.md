@@ -1,6 +1,6 @@
 ---
   title: Azure Pipeline- Fixing ‘The project was restored using Microsoft.NETCore.App version x.x.x
-  date: 2019/05/29 15:07:00
+  date: 2019-05-29 15:07:00
   tags: c#, devops
 ---
 
@@ -34,7 +34,7 @@ Now yes, if you have many projects in your solution this likely would add a good
 
 #### Even Easier Solution:
 
-![](/post/azure-pipeline-fixing-the-project-was-restored-using-microsoft-netcore-app-version-x-x-x/classic-editor.png)
+![](azure-pipeline-fixing-the-project-was-restored-using-microsoft-netcore-app-version-x-x-x/classic-editor.png)
 
 Using the classic editor, you’ll get a visual build task pipeline that should get you 90% of way there by default. Without changing anything this almost fully built my default SPA with .NET Core without changing many settings.
 

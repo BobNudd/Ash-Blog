@@ -1,6 +1,6 @@
 ---
 title: NopCommerce 3.8 - Wait Operation Timeout
-date: 2018/06/17 13:48:00
+date: 2018-06-17 13:48:00
 tags: nopcommerce
 ---
 

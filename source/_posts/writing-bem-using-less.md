@@ -1,6 +1,6 @@
 ---
 title: Writing in BEM using LESS
-date: 2017/08/05 19:19:00
+date: 2017-08-05 19:19:00
 tags: javascript, web api
 ---
 

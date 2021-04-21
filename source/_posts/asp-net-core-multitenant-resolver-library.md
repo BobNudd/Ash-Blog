@@ -1,6 +1,6 @@
 ---
   title: Micro Multi Tenanted Value Resolver Library
-  date: 2020/06/07 19:07:00
+  date: 2020-06-07 19:07:00
   tags: c#, multitenant
 ---
 

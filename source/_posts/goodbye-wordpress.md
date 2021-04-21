@@ -1,6 +1,6 @@
 ---
 title: Goodbye Wordpress, Hello SSG
-date: 2019/12/05 19:43:00
+date: 2019-12-05 19:43:00
 ---
 
 

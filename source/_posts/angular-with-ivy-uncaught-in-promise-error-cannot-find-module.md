@@ -1,6 +1,6 @@
 ---
   title: Angular Lazy Loading Modules with Ivy – Uncaught (in promise) error cannot find module
-  date: 2019/10/28 20:17:00
+  date: 2019-10-28 20:17:00
   tags: angular
 ---
 
@@ -45,4 +45,4 @@ Since Angular 8, the method of importing modules has changed to the industry rec
 
 Depending upon your IDE choice, you’ll likely also get Intellisense too:
 
-![](/post/angular-with-ivy-uncaught-in-promise-error-cannot-find-module/Capture.png)
+![](angular-with-ivy-uncaught-in-promise-error-cannot-find-module/Capture.png)

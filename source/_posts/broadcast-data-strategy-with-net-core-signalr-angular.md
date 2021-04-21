@@ -1,6 +1,6 @@
 ---
 title: Broadcast data strategy with .NET Core, SignalR & Angular
-date: 2019/05/06 15:40:00
+date: 2019-05-06 15:40:00
 tags: angular, c#, c-sharp, signalr
 ---
 
