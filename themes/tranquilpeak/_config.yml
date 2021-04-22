@@ -35,8 +35,8 @@ sidebar:
             url: /
             icon: fa fa-home
         categories:
-            title: global.categories
-            url: /all-categories
+            title: global.tags
+            url: /all-tags
             icon: fa fa-bookmark
         about:
             title: global.about
