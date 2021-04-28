@@ -152,7 +152,7 @@ tag_pagination: true
 # ---------------
 
 # Your Disqus shortname
-disqus_shortname: ashgrennan
+disqus_shortname: https-ashgrennan-com
 # Your Gitment information
 # Read https://github.com/imsun/gitment#get-started to setup Gitment
 gitment:
