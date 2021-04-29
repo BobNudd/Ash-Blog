@@ -14,6 +14,7 @@ Then came the following host of errors:
 `Error : NETSDK1061: The project was restored using Microsoft.NETCore.App version 1.0.0, but with current settings, version 2.2.0 would be used instead. To resolve this issue, make sure the same settings are used for restore and for subsequent operations such as build or publish. Typically this issue can occur if the RuntimeIdentifier property is set during build or publish but not during restore. For more information, see https://aka.ms/dotnet-runtime-patch-selection.`
 
 Some people resolved this issue, by specifying their projects to target the latest runtime, however in my scenario, apparently the pipeline still wanted to restore using 1.0.0
+<escape><!-- more --></escape>
 
 ### Solution(s)
 If you’re using the default generated YAML build script, quite simply despite the pipeline *detecting* your project type and building you a generic script, this doesn’t work.

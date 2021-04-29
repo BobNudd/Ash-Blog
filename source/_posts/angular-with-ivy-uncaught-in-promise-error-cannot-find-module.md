@@ -34,6 +34,7 @@ Error: Cannot find module 'src/app/modules/module/your-module.module'
 `
 
 You’re getting this error due to Angular 8 introduced a new recommended module loading method, previously the default method of lazy loading modules was to specify a string path to a module:
+<escape><!-- more --></escape>
 
 `{path: '/admin', loadChildren: './admin/admin.module#AdminModule'}`
 

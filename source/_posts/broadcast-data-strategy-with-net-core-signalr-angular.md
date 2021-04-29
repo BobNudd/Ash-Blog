@@ -8,6 +8,7 @@ tags: angular, c#, c-sharp, signalr
 In today’s post, we’re going to discuss an increasingly common requirement of tasks running within a web application. Depending upon your specialism you can think of these as service works, or simply background tasks. For this demo we’re going to focus on our web application continuously running a task which emits I/O data for the duration of the app’s life time. This data can then be consumed by another service, since our task needs to continuously run, it’s suited for more of a observable pattern on the client side, so we can subscribe and handle new data accordingly. In this scenario, we’re going to use SignalR to trigger invocation to any clients connected.
 
 First, you’ll need to do a small amount of configuration, I won’t elaborate on this since it’s fairly straight forward
+<escape><!-- more --></escape>
 
 ### Startup.cs 
 

@@ -17,6 +17,8 @@ I have used [Selenium](https://github.com/SeleniumHQ/selenium) on occasion for a
 
 Also it’s worth pointing out that there are implementations for browsers such as Firefox and Edge, handy for cross browser testing!
 
+<escape><!-- more --></escape>
+
 ### But for data scraping?
 
 First, let’s make sure we’re on the same page. By data scraping I mean grabbing information from web pages programmatically ie parsing the HTML markup for that sweet data. Granted thanks to the popularity of RESTful API’s, we don’t need to do this as much, but it’s still required from time to time.

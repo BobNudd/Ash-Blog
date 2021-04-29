@@ -35,6 +35,8 @@ This pattern of calling multiple methods from an object is something very common
 
 Let's look at how method chaining can help us here.
 
+<escape><!-- more --></escape>
+
 If you've used anything from the `System.Linq` namespace, it's highly likely you've used method chaining, an example of this can be found below:
 
 ```csharp

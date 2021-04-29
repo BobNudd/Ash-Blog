@@ -8,7 +8,7 @@ date: '12-22-2019'
 As your app becomes larger, with different modules to group feature components, a common approach is to lazy load
 each module in your main routing configuration. Angular recommends this from the start, since it's a simple yet scalable 
 pattern to load your projects dependencies once the `route` is activated.
-
+<escape><!-- more --></escape>
 You have likely seen or implemented this pattern in the `app-routing.module.ts` like below:
 
 {% codeblock lang:typescript %}
