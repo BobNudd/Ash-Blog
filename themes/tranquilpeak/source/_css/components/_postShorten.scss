@@ -52,6 +52,9 @@
         font-size:   map-get($font-size, small);
         font-weight: 400;
     }
+    .postShorten-excerpt_link {
+        font-size: 1.8rem;
+     }
     .postShorten-excerpt,
     .postShorten-content {
         text-rendering: optimizelegibility;
