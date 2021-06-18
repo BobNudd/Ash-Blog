@@ -473,6 +473,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hexo-asset-link@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-asset-link/-/hexo-asset-link-2.1.0.tgz#c8e59d72fc381b97fcdb077ec75e90af4fe0fd77"
+  integrity sha512-WhV/woj7NbCdh0AKpgesCpMn7KSC/dL7ul+JEgr0eA6dVSEZJcuzVQ/2A9q6wiRF4tDIMv8PjodFR7G7+x2SSg==
+
 hexo-cli@^4.0.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/hexo-cli/-/hexo-cli-4.2.0.tgz#74647bc72a90b9cebf04af5bc70839ab281a305d"
@@ -1135,9 +1140,9 @@ strip-indent@^3.0.0:
     min-indent "^1.0.0"
 
 striptags@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/striptags/-/striptags-3.1.1.tgz#c8c3e7fdd6fb4bb3a32a3b752e5b5e3e38093ebd"
-  integrity sha1-yMPn/db7S7OjKjt1LltePjgJPr0=
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/striptags/-/striptags-3.2.0.tgz#cc74a137db2de8b0b9a370006334161f7dd67052"
+  integrity sha512-g45ZOGzHDMe2bdYMdIvdAfCQkCTDMGBazSw1ypMowwGIee7ZQ5dU0rBJ8Jqgl+jAKIv4dbeE1jscZq9wid1Tkw==
 
 stylus@0.54.5:
   version "0.54.5"
